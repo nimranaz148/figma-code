@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rye: ['Rye', 'cursive'], // 'Rye' font ko define karain
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customColor: '#787054',
       },
     },
   },
